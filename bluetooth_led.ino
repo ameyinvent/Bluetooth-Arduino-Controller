@@ -1,7 +1,7 @@
 char data = 0;           
 void setup()
 {
-    Serial.begin(9600);                                  
+    Serial.begin(9600);              //set baud rate                    
     pinMode(13, OUTPUT);  
 }
 void loop()
